@@ -15,6 +15,8 @@ Each level is associated with specific devices, systems, and protocols. The Purd
 of the relationships and dependencies between these devices, systems, and protocols, 
 which can help organizations to better secure their industrial control systems. The model also provides guidance on how to segment networks to protect critical assets and how to implement effective access control.
 
+An important measure within the Purdue model is the establishment of VLAN partitions or more at levels 5, 4, 3.5, 3, and 2.5. This means that, for example, business service 1 should not be able to communicate with business service 2. A business impact analysis can be quickly conducted to derive the service catalog and determine which services should be separated from each other. Unfortunately, it is not easy to represent this in the model without making it unreadable.
+
 ## Implementation
 To implement the Purdue Next Model, organizations can follow a step-by-step approach that includes the following:
 

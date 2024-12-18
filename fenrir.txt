@@ -1,0 +1,71 @@
+10 typische Bedrohungsszenarien für eine Abwasseranlage
+
+1. Ransomware-Angriff auf SCADA-System
+Beschreibung: Ein gezielter Angriff schleust Ransomware in das SCADA-System der Abwasseranlage ein. Die Schadsoftware verschlüsselt die Steuerungsdaten, sodass Pumpen, Ventile und Dosiersysteme nicht mehr kontrolliert werden können. Ohne Zugriff auf das SCADA-System ist der Betrieb der Anlage blockiert.
+Auswirkung:
+•       Die Abwasserpumpen fallen aus, wodurch das Abwasser nicht abgeleitet werden kann.
+•       Rückstau und Überschwemmungen gefährden die Umgebung und führen zu Umweltschäden.
+•       Hohe finanzielle Verluste durch Betriebsstillstand und Wiederherstellungskosten.
+
+2. Phishing-Angriff
+Beschreibung: Ein Mitarbeiter der Abwasseranlage öffnet eine manipulierte E-Mail und lädt einen infizierten Anhang herunter. Durch die Malware wird der Zugang zum OT-Netzwerk kompromittiert. Angreifer nutzen den Zugang, um in das Steuerungssystem einzudringen.
+Auswirkung:
+•       Manipulation von Pumpen- und Steuerprozessen durch Angreifer.
+•       Verlust oder Veränderung kritischer Betriebsdaten.
+•       Betriebsunterbrechung durch eingeschleuste Schadsoftware.
+
+3. DoS-Angriff (Denial of Service)
+Beschreibung: Ein DoS-Angriff überlastet die Netzwerkressourcen der Abwasseranlage. Die Kommunikation zwischen den Steuerungssystemen (SCADA) und den OT-Geräten wird blockiert, sodass keine Steuerbefehle gesendet werden können.
+Auswirkung:
+•       Abwasserpumpen und Steuerungen reagieren nicht mehr auf Eingaben.
+•       Betriebsausfall der Anlage und Rückstau von Abwasser.
+•       Verzögerungen bei der Problemerkennung und -behebung.
+
+4. Insider-Bedrohung
+Beschreibung: Ein unzufriedener Mitarbeiter mit Zugriff auf die OT-Systeme sabotiert die Konfigurationsdaten der Abwassersteuerung. Er manipuliert Einstellungen oder löscht kritische Steuerdaten.
+Auswirkung:
+•       Fehlsteuerung der Pumpen führt zu unkontrollierter Wasserregulierung.
+•       Umweltschäden durch Überlauf oder unzureichende Wasseraufbereitung.
+•       Schwierige Wiederherstellung aufgrund gezielter Datenlöschung.
+
+5. Physischer Angriff auf OT-Geräte
+Beschreibung: Ein Angreifer verschafft sich unautorisierten Zugang zum Gelände der Abwasseranlage. Vor Ort manipuliert er die Hardware der Steuerungssysteme oder sabotiert Pumpen und Ventile.
+Auswirkung:
+•       Physische Schäden an Geräten und Infrastrukturen.
+•       Komplettausfall der Steuerungsprozesse.
+•       Hohe Kosten für Reparaturen und Sicherheitsmaßnahmen.
+
+6. Manipulation der Wasserchemie
+Beschreibung: Ein Cyberangriff verändert die Steuerungsparameter für die Dosierung von Chemikalien zur Wasseraufbereitung. Zu viel oder zu wenig Chemikalien werden zugeführt, wodurch die Wasserqualität gefährdet wird.
+Auswirkung:
+•       Gesundheitsgefährdung durch verunreinigtes Wasser.
+•       Umweltverschmutzung durch unsachgemäße Wasseraufbereitung.
+•       Reputationsverlust und mögliche rechtliche Konsequenzen.
+
+7. Stromausfall ohne Notstromversorgung
+Beschreibung: Ein gezielter Angriff oder ein technischer Defekt führt zu einem Ausfall der Energieversorgung der Abwasseranlage. Ohne Notstromversorgung stehen Pumpen und Steuerungssysteme still.
+Auswirkung:
+•       Vollständiger Betriebsstopp der Abwasseranlage.
+•       Rückstau des Abwassers führt zu Überschwemmungen und Umweltschäden.
+•       Verzögerungen bei der Wiederherstellung des Betriebs.
+
+8. Fehlkonfiguration der Firewall
+Beschreibung: Eine unsichere Konfiguration der Firewall ermöglicht Angreifern unautorisierten Zugriff auf die internen OT-Systeme der Abwasseranlage. Dadurch können Angreifer Steuerungsprozesse manipulieren oder Schadsoftware einschleusen.
+Auswirkung:
+•       Angreifer erhalten Kontrolle über Pumpen und Ventile.
+•       Manipulation von Betriebsabläufen führt zu Fehlfunktionen.
+•       Verlust sensibler Steuerungsdaten.
+
+9. Veraltete Software und ungepatchte Systeme
+Beschreibung: In der Abwasseranlage wird veraltete Steuerungssoftware eingesetzt, die bekannte Sicherheitslücken aufweist. Ein Angreifer nutzt diese Schwachstellen aus, um in das OT-System einzudringen und die Steuerung zu kompromittieren.
+Auswirkung:
+•       Manipulation von Pumpen, Ventilen oder Chemikaliensteuerung.
+•       Betriebsausfälle und Fehlfunktionen durch Systemmanipulation.
+•       Hohe Kosten für Wiederherstellung und Systemaktualisierung.
+
+10. Angriff auf IT/OT-Schnittstellen
+Beschreibung: Der Angreifer nutzt die Verbindung zwischen IT- und OT-Netzwerken aus, um Zugriff auf die Steuerungssysteme zu erlangen. Dies ermöglicht die Manipulation der Prozesse und den Zugriff auf sensible Betriebsdaten.
+Auswirkung:
+•       Verlust der Kontrolle über kritische Steuerungsprozesse.
+•       Manipulierte Betriebsabläufe führen zu Umweltschäden oder Betriebsstillstand.
+•       Datenverlust und Risiko weiterer Angriffe durch lateral movement.
